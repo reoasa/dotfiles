@@ -1,12 +1,12 @@
-## Install
+## Setup
 
     $ brew install tmux
     $ brew install peco
     $ brew install reattach-to-user-namespace
 
-## Setup
+## Install
 
     $ sh download.sh
-    $ sh linkdotfiles.sh
+    $ sh install.sh
     $ mkdir ~/.vim/colors
     $ cp solarized/solarized.vim ~/.vim/colors
