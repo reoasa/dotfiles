@@ -6,5 +6,5 @@ ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
 ln -sf ~/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/git-completion/git-completion.bash ~/.git-completion.bash
 
-cp wifi-signal-strength /usr/local/bin/
+cp bin/wifi-signal-strength /usr/local/bin/
 chmod +x /usr/local/bin/wifi-signal-strength
