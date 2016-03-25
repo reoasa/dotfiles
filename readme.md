@@ -2,6 +2,7 @@
 
     $ brew install tmux
     $ brew install peco
+    $ brew install reattach-to-user-namespace
 
 ## Setup
 
