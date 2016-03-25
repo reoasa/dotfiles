@@ -1,3 +1,8 @@
+## Install
+
+    $ brew install tmux
+    $ brew install peco
+
 ## Setup
 
     $ sh download.sh
