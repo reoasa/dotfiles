@@ -7,6 +7,6 @@
 ## Setup
 
     $ sh download.sh
-    $ sh dotfilesLink.sh
+    $ sh linkdotfiles.sh
     $ mkdir ~/.vim/colors
     $ cp solarized/solarized.vim ~/.vim/colors
