@@ -1,5 +1,5 @@
 # dir color
-eval $(gdircolors ~/solarized/dircolors-solarized/dircolors.ansi-dark)
+eval $(gdircolors ~/dotfiles/solarized/dircolors.ansi-dark)
 
 # git
 source ~/.git-completion.bash
