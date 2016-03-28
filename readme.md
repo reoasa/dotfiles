@@ -9,5 +9,3 @@
 
     $ sh download.sh
     $ sh install.sh
-    $ mkdir ~/.vim/colors
-    $ cp solarized/solarized.vim ~/.vim/colors
