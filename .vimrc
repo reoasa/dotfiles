@@ -1,3 +1,12 @@
+""" backspace """
+set backspace=indent,eol,start
+
+""" cursor """
+inoremap <C-e> <Esc>$a
+inoremap <C-a> <Esc>^a
+noremap <C-e> <Esc>$a
+noremap <C-a> <Esc>^a
+
 """ dein.vim """
 " Flags
 let s:use_dein = 1
@@ -73,7 +82,7 @@ if s:dein_enabled && dein#tap("unite.vim")
   nnoremap <silent> [unite]b :Unite buffer<CR>
 endif
 
-"" color scheme
+""" color scheme """
 syntax enable
 set background=dark
 colorscheme solarized
