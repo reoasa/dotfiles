@@ -57,7 +57,7 @@ if s:use_dein && v:version >= 704
     call dein#add('altercation/vim-colors-solarized')
 
   call dein#end()
-    call dein#save_state(s:dein_dir)
+    call dein#save_state()
   endif
 
   " Installation check.
