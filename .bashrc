@@ -1,3 +1,6 @@
+# path
+export PATH="/usr/local/bin:$PATH"
+
 # dir color
 eval $(gdircolors ~/dotfiles/solarized/dircolors.ansi-dark)
 
