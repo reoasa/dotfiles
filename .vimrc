@@ -50,14 +50,6 @@ if s:use_dein && v:version >= 704
 
     call dein#add('Shougo/dein.vim')
 
-    call dein#add('Shougo/vimproc', {
-          \ 'build': {
-          \     'windows': 'tools\\update-dll-mingw',
-          \     'cygwin': 'make -f make_cygwin.mak',
-          \     'mac': 'make -f make_mac.mak',
-          \     'linux': 'make',
-          \     'unix': 'gmake'}})
-
     call dein#add('Shougo/unite.vim', {
           \ 'depends': ['vimproc'],
           \ 'on_cmd': ['Unite'],
