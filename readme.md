@@ -1,5 +1,6 @@
 ## Setup
-
+    
+    $ brew install vim
     $ brew install tmux
     $ brew install peco
     $ brew install coreutils
