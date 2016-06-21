@@ -11,6 +11,9 @@ source ~/.git-completion.bash
 alias ls='gls --color=auto'
 alias ll="ls -l"
 
+# less
+export LESS="-i -X -R -e -P %f %pb\% [line %lt-%lb/%L]"
+
 # function
 export HISTCONTROL="ignoredups"
 peco-history() {
