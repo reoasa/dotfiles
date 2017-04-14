@@ -56,6 +56,8 @@ if s:use_dein && v:version >= 704
           \ 'lazy': 1})
 
     call dein#add('altercation/vim-colors-solarized')
+    call dein#add('ekalinin/Dockerfile.vim')
+    call dein#add('aereal/vim-colors-japanesque')
 
   call dein#end()
     call dein#save_state()
@@ -77,4 +79,6 @@ endif
 """ color scheme """
 syntax enable
 set background=dark
-colorscheme solarized
+autocmd ColorScheme * highlight solarized ctermbg=none
+autocmd ColorScheme * highlight japanesque ctermbg=none
+colorscheme japanesque
