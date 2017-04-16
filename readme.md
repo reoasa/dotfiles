@@ -11,3 +11,7 @@
 
     $ sh download.sh
     $ sh install.sh
+
+## Uninstall
+
+    $ sh uninstall.sh
