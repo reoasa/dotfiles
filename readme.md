@@ -5,6 +5,7 @@
     $ brew install peco
     $ brew install coreutils
     $ brew install reattach-to-user-namespace
+    $ brew install bash-completion
 
 ## Install
 
