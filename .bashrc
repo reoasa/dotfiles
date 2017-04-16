@@ -2,7 +2,7 @@
 export PATH="/usr/local/bin:$PATH"
 
 # dir color
-eval $(gdircolors ~/dotfiles/solarized/dircolors.ansi-dark)
+eval $(gdircolors ~/dotfiles/colors/solarized/dircolors.ansi-dark)
 
 # git
 source ~/.git-completion.bash
