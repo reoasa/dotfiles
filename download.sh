@@ -1,8 +1,8 @@
-rm -rf colors/*
+rm -rf colors
 rm -rf git-completion
 rm -rf bin
 
-mkdir colors/solarized
+mkdir -p colors/solarized
 mkdir colors/japanesque
 mkdir git-completion
 mkdir bin
