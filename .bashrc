@@ -7,6 +7,11 @@ eval $(gdircolors ~/dotfiles/colors/solarized/dircolors.ansi-dark)
 # git
 source ~/.git-completion.bash
 
+# bash-completion
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
 # alias
 alias ls='gls --color=auto'
 alias ll="ls -l"
