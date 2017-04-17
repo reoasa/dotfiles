@@ -81,4 +81,4 @@ syntax enable
 set background=dark
 autocmd ColorScheme * highlight solarized ctermbg=none
 autocmd ColorScheme * highlight japanesque ctermbg=none
-colorscheme japanesque
+colorscheme solarized
