@@ -9,6 +9,9 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
+# git-prompt
+export PS1='\u@\h [\W $(__git_ps1)] \$ '
+
 # alias
 alias ls='gls --color=auto'
 alias ll="ls -l"
