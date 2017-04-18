@@ -13,8 +13,8 @@ fi
 export PS1='\u@\h [\W $(__git_ps1)] \$ '
 
 # alias
-alias ls='gls --color=auto'
-alias ll="ls -l"
+alias ls='gls -F --color=auto'
+alias ll="ls -lF"
 
 # less
 export LESS="-i -X -R -e -P %f %pb\% [line %lt-%lb/%L]"
