@@ -58,6 +58,8 @@ if s:use_dein && v:version >= 704
     call dein#add('altercation/vim-colors-solarized')
     call dein#add('ekalinin/Dockerfile.vim')
     call dein#add('aereal/vim-colors-japanesque')
+    call dein#add('tomasr/molokai')
+    call dein#add('cocopon/iceberg.vim')
 
   call dein#end()
     call dein#save_state()
@@ -81,4 +83,6 @@ syntax enable
 set background=dark
 autocmd ColorScheme * highlight solarized ctermbg=none
 autocmd ColorScheme * highlight japanesque ctermbg=none
-colorscheme solarized
+autocmd ColorScheme * highlight molokai ctermbg=none
+autocmd ColorScheme * highlight iceberg ctermbg=none
+colorscheme iceberg
