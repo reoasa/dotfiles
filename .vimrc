@@ -51,7 +51,6 @@ if s:use_dein && v:version >= 704
     call dein#add('Shougo/dein.vim')
 
     call dein#add('Shougo/unite.vim', {
-          \ 'depends': ['vimproc'],
           \ 'on_cmd': ['Unite'],
           \ 'lazy': 1})
 
