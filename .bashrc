@@ -18,6 +18,7 @@ alias ll="ls -lF"
 
 # less
 export LESS="-i -X -R -e -P %f %pb\% [line %lt-%lb/%L]"
+export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 
 # function
 export HISTCONTROL="ignoredups"
