@@ -1,5 +1,5 @@
 # path
-export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/bin:/opt/apache-hive-2.3.2-bin/bin:/opt/kafka_2.11-1.0.1/bin:$PATH"
 
 # dir color
 eval $(gdircolors ~/dotfiles/colors/solarized/dircolors.ansi-dark)
@@ -45,3 +45,11 @@ peco-history() {
     fi  
 }
 bind -x '"\C-r":peco-history'
+
+# tmux window-name
+function ssh() {
+    local window_name=$(tmux display -p '#{window_name}')
+    command ssh $@
+    tmux rename-window $window_name
+}
+
