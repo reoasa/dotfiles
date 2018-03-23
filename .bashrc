@@ -20,6 +20,9 @@ alias ll="ls -lF"
 export LESS="-i -X -R -e -P %f %pb\% [line %lt-%lb/%L]"
 export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 
+# grep
+alias grep='grep --line-number --color=always'
+
 # function
 export HISTCONTROL="ignoredups"
 peco-history() {
