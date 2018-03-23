@@ -1,5 +1,5 @@
 # path
-export PATH="/usr/local/bin:/opt/apache-hive-2.3.2-bin/bin:/opt/kafka_2.11-1.0.1/bin:$PATH"
+export PATH="/usr/local/bin:/opt/apache-hive-1.2.2-bin/bin:/opt/kafka_2.11-1.0.1/bin:$PATH"
 
 # dir color
 eval $(gdircolors ~/dotfiles/colors/solarized/dircolors.ansi-dark)
