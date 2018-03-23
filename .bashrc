@@ -23,6 +23,13 @@ export LESSOPEN='| /usr/local/bin/src-hilite-lesspipe.sh %s'
 # grep
 alias grep='grep --line-number --color=always'
 
+# diff
+if [[ -x `which colordiff` ]]; then
+  alias diff='colordiff -u'
+else
+  alias diff='diff -u'
+fi
+
 # function
 export HISTCONTROL="ignoredups"
 peco-history() {
