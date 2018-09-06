@@ -9,6 +9,7 @@
     $ brew install bash-completion
     $ brew install source-highlight
     $ brew install colordiff
+    $ brew install bat
 
 ## Install
 
